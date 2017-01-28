@@ -7,10 +7,14 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 
-Plugin 'VundleVim/Vundle.vim'
+Plugin 'easymotion/vim-easymotion'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-sensible'
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'VundleVim/Vundle.vim'
+
 
 call vundle#end()
 
