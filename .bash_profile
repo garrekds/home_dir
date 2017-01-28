@@ -1,5 +1,9 @@
 export VIM_NOTES_TEMPLATE=~/Dropbox/Notes/NOTE_TEMPLATE
 
+
+# Modules to load for Janus
+#  _______________________________________________________________________________________________
+
 module load gcc
 module load gsl
 module load fftw
@@ -9,7 +13,15 @@ module load cmake
 module load slurm
 module load boost
 
+
+#  Set Paths
+#  ____________________________________________________________________
+
 PATH=$PATH:~/projects/usr/local/include/:~/projects/bin/:~/projects/bob-sac/
+
+
+#  General Commands
+#  ____________________________________________________________________
 
 alias glog="git log --pretty=format:'%C(yellow)%h %Cred%an %Cblue%ad %Cgreen%d %Creset%s' --date=relative --graph"
 
@@ -21,4 +33,9 @@ alias anatwo="python P_tensor_analysis.py eps lr ~/projects/scratch/eps_slice_tw
 alias cdnew="cd ~/projects/scratch/newagebob/test/simulations"
 
 
+#  Janus Commands
+#  ____________________________________________________________________
 
+alias squ="squeue -u $USER -S 'i'"
+alias scancel="scancel --account=S00000526"
+alias sbal="sbank balance statement -U $USER"
