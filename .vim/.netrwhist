@@ -1,2 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/projects/gast7589/scratch/newagebob/test/simulations/eps0.500000_lr2.560000'
+let g:netrw_dirhist_2='/projects/gast7589/scratch/newagebob/test/simulations/eps0.500000_lr2.560000/s0'
+let g:netrw_dirhist_3='/home/gast7589/.vim'
