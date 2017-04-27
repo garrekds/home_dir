@@ -1,3 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/Users/garrek/.vim/bundle/Vundle.Vim'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/garrek/projects/scratch/newagebob/runs/17-01-24_slice_eps0.125-16._lr0.32-81.92/simulations/eps16.0/eps16.000000_lr81.920000'
+let g:netrw_dirhist_2='/Users/garrek/projects/scratch/newagebob/runs/17-01-24_slice_eps0.125-16._lr0.32-81.92/simulations/eps16.0/eps16.000000_lr81.920000/s0'
+let g:netrw_dirhist_3='/Users/garrek/projects/bob-analysis/Bin'
+let g:netrw_dirhist_4='/Users/garrek/projects/bin'
