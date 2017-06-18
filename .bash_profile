@@ -1,15 +1,17 @@
 export VIM_NOTES_TEMPLATE=~/Dropbox/Notes/NOTE_TEMPLATE
 
 
-# Modules to load for Janus
+# Modules to load for Summit 
 #  _______________________________________________________________________________________________
 
-
+module load gcc
+module load python
+module load numpy
 
 #  Set Paths
 #  ____________________________________________________________________
 
-PATH=$PATH:~/projects/usr/local/include/:~/projects/bin/:~/projects/bob-sac/:~/projects/scratch/newagebob/runs/17-01-24_slice_eps0.125-16._lr0.32-81.92/simulations/eps16.0/eps16.000000_lr0.320000/s0
+PATH=$PATH:~/projects/usr/local/include/:~/projects/bin/:~/projects/bob-sac/
 
 #  General Commands
 #  ____________________________________________________________________
@@ -25,12 +27,11 @@ alias cdnew="cd ~/projects/newagebob/"
 alias cdruns="cd ~/projects/scratch/newagebob/runs"
 alias cdtest="cd ~/projects/scratch/newagebob/runs/17-01-24_slice_eps0.125-16._lr0.32-81.92/simulations/eps16.0/eps16.000000_lr0.320000/s0"
 
-
-#  Janus Commands
+#  Summit Commands
 #  ____________________________________________________________________
 
 alias squ="squeue -u $USER -S 'i'"
-alias scancel="scancel --account=S00000526"
+#alias scancel="scancel --account=S00000526"
 alias sbal="sbank balance statement -U $USER"
 
 # Setting PATH for Python (and other python paths)
