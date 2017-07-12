@@ -6,12 +6,13 @@ export VIM_NOTES_TEMPLATE=~/Dropbox/Notes/NOTE_TEMPLATE
 
 module load gcc
 module load python
-module load numpy
+module load gsl
+module load fftw
 
 #  Set Paths
 #  ____________________________________________________________________
 
-PATH=$PATH:~/projects/usr/local/include/:~/projects/bin/:~/projects/bob-sac/
+PATH=$PATH:~/projects/usr/local/include:~/projects/bin:~/projects/bob-sac
 
 #  General Commands
 #  ____________________________________________________________________
