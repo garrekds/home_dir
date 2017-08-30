@@ -26,7 +26,7 @@ alias cdc="cd ~/Documents/courses"
 alias cdat="cd ~/projects/data/"
 alias cdnew="cd ~/projects/newagebob/"
 alias cdruns="cd ~/projects/scratch/newagebob/runs"
-alias cdtest="cd ~/projects/scratch/newagebob/runs/17-01-24_slice_eps0.125-16._lr0.32-81.92/simulations/eps16.0/eps16.000000_lr0.320000/s0"
+alias cdtest="cd ~/projects/scratch/newagebob/test"
 
 
 #  Summit Commands
