@@ -11,7 +11,7 @@ module load fftw
 #  ____________________________________________________________________
 
 PATH=$PATH:~/projects/usr/local/include:~/projects/bin:~/projects/bob-sac
-PYTHONPATH="/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/bin:$PYTHONPATH"
+PYTHONPATH=$PYTHONPATH:/usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/bin
 
 
 #  General Commands
@@ -32,9 +32,9 @@ alias cdtest="cd ~/projects/scratch/newagebob/test"
 #  Summit Commands
 #  ____________________________________________________________________
 
-alias squ="squeue -u $USER -S 'i'"
+#alias squ="squeue -u $USER -S 'i'"
 #alias scancel="scancel --account=S00000526"
-alias sbal="sbank balance statement -U $USER"
+#alias sbal="sbank balance statement -U $USER"
 
 
 #  Scripts
