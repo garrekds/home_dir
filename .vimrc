@@ -19,8 +19,8 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-notes'
+"Plugin 'xolox/vim-misc'
+"Plugin 'xolox/vim-notes'
 "Plugin 'rakr/vim-two-firewatch'
 
 call vundle#end()
@@ -40,21 +40,14 @@ let g:airline_theme = 'hybrid'
 let g:enable_bold_font=1
 
 noremap <Leader>bb <esc>:b#<cr>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 :imap jk <Esc>
 
-" Command to open current document as pdf in skim
-:command! Skim execute ':silent! !open -ga skim %:r.pdf' | execute ':redraw!'
 
 
-" For vim-notes
-
-let g:notes_title_sync = 'rename_file'
-let g:notes_suffix = '.vnote'
-let g:notes_directories = ['~/Documents/Notes']
-map <silent> <C-j> :RecentNotes<CR>
 
 
-" Shortcuts for latexmk and skim
-
-map <leader>l :Latexmk<CR>
-map <leader>o :Skim<CR>
