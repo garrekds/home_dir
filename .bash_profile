@@ -17,11 +17,10 @@ PYTHONPATH=$PYTHONPATH:/usr/local/Cellar/python/2.7.13/Frameworks/Python.framewo
 #  General Commands
 #  ____________________________________________________________________
 
-alias note="vim +RecentNotes"
 alias glog="git log --pretty=format:'%C(yellow)%h %Cred%an %Cblue%ad %Cgreen%d %Creset%s' --date=relative --graph"
 alias rclogin="ssh -l gast7589 login.rc.colorado.edu"
 alias rumor="ssh garrek@rumor.colorado.edu"
-alias cdana="cd ~/projects/newagebob/analysis/Bulk"
+alias cdana="cd ~/projects/newagebob/analysis"
 alias cdc="cd ~/Documents/courses"
 alias cdat="cd ~/projects/data/"
 alias cdnew="cd ~/projects/newagebob/"
